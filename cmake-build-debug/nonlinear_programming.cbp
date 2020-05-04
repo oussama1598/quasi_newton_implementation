@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nonlinear_programming"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\scripts\;CMake Files\cmake-build-debug\;CMake Files\test\;CMake Files\src\;CMake Files\src\math\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_program">
+				<Option output="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/bin/test_program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/math/.."/>
+					<Add directory="/home/red-scule/.conan/data/Catch2/2.9.1/catchorg/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_program"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_program/fast">
+				<Option output="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/bin/test_program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/math/.."/>
+					<Add directory="/home/red-scule/.conan/data/Catch2/2.9.1/catchorg/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 test_program/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math">
+				<Option output="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/lib/libmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 math"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="math/fast">
+				<Option output="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/lib/libmath.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 math/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/src/math/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/math/grad.cpp">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/math/grad.h">
+			<Option target="math"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/test/main_tests.cpp">
+			<Option target="test_program"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/test/math/test_grad.cpp">
+			<Option target="test_program"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/test/math/test_grad.h">
+			<Option target="test_program"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/conanfile.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/scripts/conan.cmake">
+			<Option virtualFolder="CMake Files\scripts\"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\math\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

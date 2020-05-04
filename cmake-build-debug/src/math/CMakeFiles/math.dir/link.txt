@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libmath.a  CMakeFiles/math.dir/grad.cpp.o
+/usr/bin/ranlib ../../lib/libmath.a

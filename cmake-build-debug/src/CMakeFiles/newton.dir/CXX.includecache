@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/red-scule/Desktop/projects/cpp_projects/nonlinear_programming/src/main.cpp
+iostream
+-
+vector
+-
+functional
+-
+
