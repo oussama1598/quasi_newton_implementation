@@ -1,1 +1,0 @@
-/usr/bin/c++    -g   CMakeFiles/test_program.dir/main_tests.cpp.o CMakeFiles/test_program.dir/math/test_grad.cpp.o  -o ../bin/test_program  ../lib/libmath.a 

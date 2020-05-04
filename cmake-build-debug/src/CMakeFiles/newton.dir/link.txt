@@ -1,1 +1,0 @@
-/usr/bin/c++    -g   CMakeFiles/newton.dir/main.cpp.o  -o ../bin/newton 
